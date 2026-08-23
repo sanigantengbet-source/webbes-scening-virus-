@@ -3,6 +3,7 @@
 import React from 'react';
 import { History, Globe, FileCode2, Hash, FlaskConical, Shield, Terminal, Code2 } from 'lucide-react';
 import { ScanType } from '@/types/scanner';
+import BrandLogo from './BrandLogo';
 
 interface NavbarProps {
   activeTab: ScanType | 'lab';
@@ -27,12 +28,7 @@ export default function Navbar({
           className="flex items-center gap-2 sm:gap-3 cursor-pointer group select-none"
         >
           <div className="h-8 w-8 sm:h-9 sm:w-9 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/logo.png"
-              alt="SANN404 FORUM GROUP Logo"
-              className="h-full w-full object-contain"
-            />
+            <BrandLogo className="h-full w-full" size={36} />
           </div>
           <div className="flex flex-col">
             <div className="flex items-center gap-1.5">
