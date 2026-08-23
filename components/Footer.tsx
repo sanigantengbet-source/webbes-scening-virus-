@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Shield, Sparkles, Terminal, Code2 } from 'lucide-react';
+import BrandLogo from './BrandLogo';
 
 export default function Footer() {
   return (
@@ -10,12 +11,7 @@ export default function Footer() {
         {/* Brand & Developer Info */}
         <div className="flex items-center gap-3">
           <div className="h-8 w-8 flex items-center justify-center shrink-0">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/logo.png"
-              alt="SANN404 FORUM GROUP Logo"
-              className="h-full w-full object-contain"
-            />
+            <BrandLogo className="h-full w-full" size={32} />
           </div>
           <div>
             <div className="flex items-center justify-center md:justify-start gap-2">
