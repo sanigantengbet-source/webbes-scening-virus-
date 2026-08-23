@@ -1,0 +1,6 @@
+{
+  "name": "VirusScan Pro - Malware & Threat Detector",
+  "description": "Pemindai keamanan komprehensif untuk mendeteksi virus, malware, phishing, dan ancaman berbahaya pada file, URL website, dan hash dengan analisis 72 multi-engine dan telemetri keamanan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
